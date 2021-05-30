@@ -42,7 +42,7 @@ public class GittigidiyorTest {
 
         //Bekleme..
 
-        driver.manage().timeouts().implicitlyWait(70,TimeUnit.SECONDS);
+        driver.manage().timeouts().implicitlyWait(60,TimeUnit.SECONDS);
 
 
 
