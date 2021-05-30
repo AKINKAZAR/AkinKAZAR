@@ -42,7 +42,7 @@ public class GittigidiyorTest {
 
         //Bekleme..
 
-        driver.manage().timeouts().implicitlyWait(60,TimeUnit.SECONDS);
+        driver.manage().timeouts().implicitlyWait(70,TimeUnit.SECONDS);
 
 
 
@@ -60,7 +60,7 @@ public class GittigidiyorTest {
 
         //X path ile Giriş yapın altında ki giriş butonuna tıklanır.
 
-        driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
+        driver.manage().timeouts().implicitlyWait(40, TimeUnit.SECONDS);
 
         WebElement signbtn1= driver.findElement(By.xpath("/html/body/div[1]/header/div[3]/div/div/div/div[3]/div/div[1]/div[2]/div/div/div/a"));
         signbtn1.click();
